@@ -1,0 +1,322 @@
+.about {
+    width: 100%;
+    height: auto;
+    padding-top: 0;
+    padding-bottom: 100px;
+}
+
+.about img {
+    width: 100%;
+    height: auto;
+}
+
+.about .heading {
+    text-align: center;
+    padding-bottom: 70px;
+}
+
+.about .heading h2 {
+    font-size: 56px;
+    font-family: 'Old Standard TT', serif;
+}
+
+.about .heading h3 {
+    color: #f26522;
+    font-size: 30px;
+    font-family: 'Old Standard TT', serif;
+}
+
+.about .heading img {
+    width: 80px;
+    height: 80px
+}
+
+.circle {
+    position: relative;
+    display: block;
+    background-color: transparent;
+    color: #222;
+    text-align: center;
+    border: 1px solid #d4d4d4;
+    border-radius: 50%;
+    font-family: 'Old Standard TT', serif;
+}
+
+.about .circle .gradient {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    background: -moz-linear-gradient(left, rgba(60, 40, 159, 0.7) 0%, rgba(11, 94, 237, 0.7) 100%);
+    background: -webkit-linear-gradient(left, rgba(60, 40, 159, 0.7) 0%, rgba(11, 94, 237, 0.7) 100%);
+    background: linear-gradient(to right, rgba(60, 40, 159, 0.7) 0%, rgba(11, 94, 237, 0.7) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b33c289f', endColorstr='#b30b5eed', GradientType=1);
+}
+
+
+.circle:after {
+    display: block;
+    padding-bottom: 100%;
+    width: 100%;
+    height: 0;
+    border-radius: 50%;
+    background-color: #ddd;
+    content: "";
+    background-image: url("../images/about-1.jpg");
+}
+
+.circle__inner {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.circle__wrapper {
+    display: table;
+    width: 100%;
+    height: 100%;
+    border: 20px solid white;
+    border-radius: 50%;
+}
+
+.circle__content {
+    display: table-cell;
+    padding: 1em;
+    border-radius: 50%;
+    color: #fff;
+    vertical-align: middle;
+}
+
+.about .circle__content h4 {
+    font-size: 34px;
+    padding-bottom: 15px;
+}
+
+.about .circle__content h4 a {
+    color: #ffffff;
+}
+
+.about .circle__content h4 span {
+    font-size: 22px;
+    font-style: italic;
+}
+
+.about .circle__content p {
+    font-size: 14px;
+    padding: 0 40px;
+    margin-bottom: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.about .circle__content p a {
+    color: #ffffff;
+}
+.services {
+    width: 100%;
+    height: 690px;
+    background: #f2f2f2;
+    font-family: 'Old Standard TT', serif;
+}
+
+.services figure img {
+    width: 100%;
+    height: 690px;
+    object-fit: cover;
+    position: relative;
+}
+
+.services .right-part {
+    padding-top: 70px;
+    padding-left: 50px;
+}
+
+.services figure {
+    margin-bottom: 0;
+}
+
+.services .gradient {
+    position: absolute;
+    top: 0;
+    left: 15px;
+    width: 93.7%;
+    height: 690px;
+    background: -moz-linear-gradient(left, rgba(255, 0, 0, 0.3) 0%, rgba(255, 240, 0, 0.3) 100%);
+    background: -webkit-linear-gradient(left, rgba(255, 0, 0, 0.3) 0%, rgba(255, 240, 0, 0.3) 100%);
+    background: linear-gradient(to right, rgba(255, 0, 0, 0.3) 0%, rgba(255, 240, 0, 0.3) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4dff0000', endColorstr='#4dfff000', GradientType=1);
+}
+
+.services h2 {
+    font-size: 56px;
+}
+
+.services h3 {
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+.services p {
+    font-size: 20px;
+    padding-bottom: 20px;
+    padding-right: 660px;
+}
+
+.services a {
+    color: #000000;
+    font-size: 22px;
+}
+
+.services .fa {
+    color: #00a651;
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+.services ul li {
+    display: block;
+    padding-bottom: 18px;
+    margin-bottom: 18px;
+}
+
+.services ul li span {
+    border-bottom: 1px solid;
+    display: block;
+    float: left;
+    width: calc(100% - 40px);
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+}
+ /* services */
+.services .fa {
+    color: #00a651;
+    font-size: 18px;
+    margin-right: 10px;
+    float: left;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
+.services ul li:last-child span {
+    border-bottom: none;
+}
+
+.services .contant-part-2 {
+    padding-left: 50px;
+}
+
+/* start with services */
+.blog {
+    width: 100%;
+    height: auto;
+    padding-top: 80px;
+    padding-bottom: 100px;
+    position: relative;
+    font-family: 'Old Standard TT', serif;
+}
+
+.blog:after {
+    content: "";
+    width: 100%;
+    height: 100px;
+    background: url(../Downloads/corosel\ proj2.jpg);
+    bottom: -6  4px;
+    z-index: 9;
+    left: 0;
+    position: absolute;
+    display: inline-block;
+}
+
+.blog img {
+    width: 100%;
+    height: auto;
+}
+
+.blog .heading {
+    text-align: center;
+    padding-bottom: 70px;
+}
+
+.blog .heading h2 {
+    font-size: 56px;
+}
+
+.blog .heading h3 {
+    font-size: 30px;
+}
+
+.blog .heading img {
+    width: 80px;
+    height: 80px
+}
+
+.blog figure img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    transition: 0.5s;
+}
+
+.blog h4 {
+    font-size: 22px;
+    line-height: 30px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #cccccc;
+}
+
+.blog h4 a {
+    color: #000000;
+}
+
+.blog h4 b {
+    color: #000000;
+}
+
+.blog .inner-content {
+    padding-right: 40px;
+}
+
+.blog p {
+    font-size: 13px;
+    padding-top: 20px
+}
+
+.blog figure {
+    margin: 0 0 4rem;
+}
+
+.blog p span {
+    display: block;
+}
+
+.blog .button {
+    text-align: center;
+}
+
+.blog .button .btn-success {
+    font-size: 22px;
+    padding: 10px 40px;
+    margin: 30px 0;
+    font-weight: 600;
+    border-radius: 100px;
+    text-transform: uppercase;
+    background-color: transparent;
+    color: #000000;
+    border: 1px solid #b6b6b7;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.blog .button .btn-success:hover {
+    color: #ffffff;
+    background-color: #b6b6b7;
+    border: 1px solid #b6b6b7;
+}
+/* End with services */
+
+
+
+
